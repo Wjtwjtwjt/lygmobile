@@ -1,0 +1,243 @@
+.lyg {
+	width: 100%;
+	margin: 0 auto;
+	/* overflow: hidden; */
+}
+.lyg .lyg-search{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 44px;
+	background:#006699;
+	z-index: 10;
+}
+.lyg .lyg-search h2{
+	
+	line-height: 44px;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	font-weight: normal;
+}
+.lyg .lyg-search i{
+	position: absolute;
+	top:10px;
+	right: 5px;
+	width: 24px;
+	height: 25px;
+	background-position: -60px -109px;
+	background-image: url("../images/jd-sprites.png");
+	background-size: 200px 200px;
+
+}
+
+/* 1.轮播图 */
+.carousel {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel img {
+  width: 100%;
+  vertical-align: middle;
+}
+/* 2.nav图 */
+.nav{
+	width: 100%;
+	/* height: 212px; */
+	border-bottom: 1px solid #ccc;
+}
+.nav ul{
+	padding: 10px;
+	box-sizing: border-box;
+}
+.nav ul li{
+	float: left;
+	width: 33.3%;
+	/* height: 94px; */
+}
+.nav ul li img {
+	width: 100%;
+	/* height: 94px; */
+}
+
+/* 广告图 */
+.product{
+	width: 100%;
+	/* height: 208px; */
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+/* 左边 */
+.product .product_l {
+	float: left;
+	width: 67%;
+}
+.product .product_l ul{
+	width: 100%;
+	/* height: 208px; */
+}
+.product .product_l li{
+	float: left;
+	width: 50%;
+	/* height: 96px; */
+}
+/* .product .product_l li img {
+	width: 100%;
+} */
+.product .product_l li:nth-child(3) img{
+	/* height: 112px; */
+}
+.product .product_l li:nth-child(4) img{
+	/* height: 112px; */
+}
+.product .product_l li img {
+	width: 100%;
+	/* height: 96px; */
+}
+
+/* 右边 */
+.product .product_r {
+	float: right;
+	width: 33%;
+}
+.product .product_r ul{
+	width: 100%;
+	/* height: 208px; */
+	float: right;
+}
+.product .product_r li{
+	width: 100%;
+	height: 100%;
+	
+}
+.product .product_r li img{
+	width: 100%;
+	height: 100%;
+}
+/* 品牌区域 */
+.menu{
+	width: 100%;
+	margin-top: 5px;
+	padding:0 10px;
+	box-sizing: border-box;
+	/* height: 200px; */
+	overflow: hidden;
+}
+/* 品牌专区 */
+.menu .menu_t img{
+	width: 100%;
+	/* height: 47px; */
+}
+/* 品牌图标 */
+.menu .menu_m{
+	width: 100%;
+	/* height: 95px; */
+}
+.menu .menu_m ul{
+	width: 100%;
+	height: 100%;
+}
+.menu .menu_m ul li {
+	width: 25%;
+	height: 50%;
+	float: left;
+}
+.menu .menu_m ul li img{
+	width: 100%;
+	height: 100%;
+}
+/* 底部品牌 */
+.menu .menu_b img {
+	width: 100%;
+	/* height: 67px; */
+}
+/* 鞋子栏 */
+.sports {
+	width: 100%;
+	/* height: 280px; */
+	padding: 15px;
+	box-sizing: border-box;
+
+}
+.sports ul {
+	width: 100%;
+	height: 100%;
+}
+.sports ul li {
+	width: 46%;
+	/* height: 276px; */
+	border: 1px solid #ccc;
+	float: 	left;
+	margin-right: 8px;
+	/* margin-left: 5px; */
+	margin-bottom: 10px;
+}
+.sports ul li img {
+	/* display: block; */
+	width: 100%;
+	/* height: 140px; */
+	/* text-align: center; */
+}
+.sports ul li p{
+	color:#dcb8a1;
+	padding: 0 5px;
+	margin: 0  auto 5px;	
+	display: block;
+	text-align: center;
+}
+.sports ul li i{
+	color: red;
+	margin-left: 20px;
+
+	text-align: center;
+		
+}
+.sports ul li i del {
+	text-decoration: line-through;
+}
+.sports ul li span {
+	display: block;
+	text-align: center;
+	width: 100px;
+	height: 31px;
+	background: #006699;
+	color: #fff;
+	margin-left: 25px;
+	margin-top: 10px;
+	line-height: 31px;
+}
+/* 底部工具栏 */
+.lyg-toolbar {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 51px;
+	border-top: 1px solid #f7f7f7;
+	background: #fff;
+	box-sizing: border-box;
+	z-index: 10;
+}
+.lyg-toolbar ul {
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.lyg-toolbar li {
+	flex: 1;
+	height: 100%;
+}
+.lyg-toolbar a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.lyg-toolbar img {
+  width: auto;
+  height: 51px;
+}
